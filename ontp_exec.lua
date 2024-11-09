@@ -1,0 +1,1 @@
+getfenv().queue_on_teleport("getfenv().loadstring(game:HttpGet(\"https://raw.githubusercontent.com/riruru111/the-rivals/refs/heads/main/main.lua\", true))()")
