@@ -43,7 +43,6 @@ Environment.FOVSettings = {
     Color = Color3.fromRGB(255, 255, 255),
     LockedColor = Color3.fromRGB(255, 70, 70),
     Transparency = 0.5,
-    Sides = 60,
     Thickness = 1,
     Filled = false
 }
@@ -100,7 +99,6 @@ local function Load()
             Environment.FOVCircle.Radius = Environment.FOVSettings.Amount
             Environment.FOVCircle.Thickness = Environment.FOVSettings.Thickness
             Environment.FOVCircle.Filled = Environment.FOVSettings.Filled
-            Environment.FOVCircle.NumSides = Environment.FOVSettings.Sides
             Environment.FOVCircle.Color = Environment.FOVSettings.Color
             Environment.FOVCircle.Transparency = Environment.FOVSettings.Transparency
             Environment.FOVCircle.Visible = Environment.FOVSettings.Visible
@@ -252,7 +250,6 @@ function Environment.Functions:ResetSettings()
         Color = Color3.fromRGB(255, 255, 255),
         LockedColor = Color3.fromRGB(255, 70, 70),
         Transparency = 0.5,
-        Sides = 60,
         Thickness = 1,
         Filled = false
     }
